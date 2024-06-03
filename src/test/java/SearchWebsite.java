@@ -9,6 +9,6 @@ import org.junit.jupiter.api.Test;
 
             @Test
             void successfulSearchTest() {
-                open("https://www.youtube.com/");
+                open("https://www.facebook.com");
             }
         }
