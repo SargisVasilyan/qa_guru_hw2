@@ -7,8 +7,14 @@ import org.junit.jupiter.api.Test;
 
         public class SearchWebsite {
 
+            public final String Website = "https://www.youtube.com/";
+
+            public String URL (){
+                return Website;
+            }
+
             @Test
             void successfulSearchTest() {
-                open("https://www.facebook.com");
+                open(URL());
             }
         }
